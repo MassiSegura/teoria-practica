@@ -1,1 +1,13 @@
 /* Aca va a ir el codigo de css que necesito */
+
+
+/* selector {
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedad3: valor;
+    }
+    */
+
+body {
+    background-color: bisque;
+}
