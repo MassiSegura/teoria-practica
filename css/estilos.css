@@ -2,12 +2,22 @@
 
 
 /* selector {
-    propiedad1: valor;
-    propiedad2: valor;
-    propiedad3: valor;
-    }
-    */
+            propiedad1: valor;
+            propiedad2: valor;
+            propiedad3: valor;
+            }
+            */
+
 
 body {
     background-color: bisque;
+    color:black
+}
+
+p {
+    color:black
+}
+
+.parrafo {
+    color:green
 }
