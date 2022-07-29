@@ -8,16 +8,79 @@
             }
             */
 
+/* Pilares de css
+        Herencia
+        Cascada
+        Especificidad
+            Dependiendo del tipo del selector que se este usando tiene un puntaje:
+            Selector universal o Elemento -> 1
+            Selector de clase -> 10
+            Selector de ID -> 100
+            Si aplicamos estilos con el atributo style en el html -> 1000
+            (no es adecuado aplicar estilos o propiedades de esta forma,
+            porque ademas no lo vemos en el curso)
+
+/*  
+    Selector universal (*)
+    Nos va a servir para resetear o pisar algun estilo (propiedades) que 
+    aplican los navegadores por defecto
+    */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 
 body {
-    background-color: bisque;
-    color:black
+    background-color: brown;
+    color: black
 }
 
 p {
-    color:black
+    color: white
 }
 
-.parrafo {
-    color:green
+/* Este tipo de selector es el que mas se usa */
+.parrafo-destacado {
+    color: green
 }
+
+#titulo-unico {
+    font-size: 50xp;
+    /* Tamaño de la fuente*/
+    text-align: center;
+    /* Alinear el texto */
+}
+
+
+/*
+Colores
+Tenemos distintos formatos
+    nombre en ingles (140)
+    hexadecimal (3 o 6 digitos o versiones nuevas 8 digitos)
+    rgb -> red, green, blue (3 parametros o 4 parametros para rgba)
+    hsl
+
+Cuales son las propiedades en css para poder aplicar un formato de color
+
+    color: aplican un color al texto
+    background-color: aplican un color solido de fondo
+    */
+
+.colores {
+    background-color: navy;
+    color: navajowhite;
+}
+
+.color-especial {
+    color: black
+}
+
+.titulo {
+    text-align: right;
+}
+
+.gradiente {
+    background-image: linear-gradient(180deg, rgba(213,20,20,1) 40%, rgba(255,255,255,1) 80%);
