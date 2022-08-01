@@ -1,14 +1,41 @@
 /* solo tendremos una sola hoja de estilos propia para el proyecto, no es
 necesario crear mas archivos css */
 
+/* Selector universal (*) va a seleccionar todos los elementos html */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* Para que el ancho y el alto de los elementos html se 
+    ajuste a lo declarado */
 }
 
 
 body {
     background-color: rgba(213, 20, 20, 1);
     color: black
+}
+
+a {
+    color: inherit;
+}
+
+.inicio1 {
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding: 4rem;
+}
+
+
+.inicio1subtitulo {
+    /* Cuando sean margin o padding o border utilizar la unidad de 
+    medida rem o directamente px */
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.inicio1titulo {
+    font-size: 2rem;
 }
