@@ -3,6 +3,11 @@ necesario crear mas archivos css */
 
 /* Selector universal (*) va a seleccionar todos los elementos html */
 
+/* solo tendremos una sola hoja de estilos propia para el proyecto, no es
+necesario crear mas archivos css */
+
+/* Selector universal (*) va a seleccionar todos los elementos html */
+
 * {
     padding: 0;
     margin: 0;
@@ -29,13 +34,52 @@ a {
 }
 
 
-.inicio1subtitulo {
-    /* Cuando sean margin o padding o border utilizar la unidad de 
+
+/* Cuando sean margin o padding o border utilizar la unidad de 
     medida rem o directamente px */
-    margin-bottom: 2rem;
-    font-weight: 700;
+
+
+.inicio0 {
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    line-height: 2;
 }
 
-.inicio1titulo {
-    font-size: 2rem;
+.position-fixed
+
+/* top, left, right, bottom */
+    {
+    background-color: rgba(213, 20, 20, 1);
+    color: white;
+    position: fixed;
+    right: 0rem;
+    bottom: 0rem;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    min-height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.nav-lista {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+
+.nav-enlace {
+    text-decoration: none;
 }
