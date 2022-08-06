@@ -81,5 +81,21 @@ a {
 }
 
 .nav-enlace {
-    text-decoration: none;
+    text-decoration: none
+}
+
+.padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    min-height: 500px;
+}
+
+.hijo {
+    width: 30%;
+    height: 200px;
+    color: black;
+    padding: 1rem;
 }
