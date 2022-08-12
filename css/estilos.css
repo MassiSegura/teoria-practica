@@ -22,6 +22,13 @@ body {
     color: black
 }
 
+main {
+    min-height: 100vh;
+}
+
+
+
+
 a {
     color: inherit;
 }
@@ -31,6 +38,7 @@ a {
     padding-top: 3rem;
     padding-bottom: 3rem;
     padding: 4rem;
+    color: black;
 }
 
 
@@ -98,4 +106,16 @@ a {
     height: 200px;
     color: black;
     padding: 1rem;
+}
+
+
+.footer-lista {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    list-style: none;
+}
+
+.footer-item {
+    margin-left: 1rem;
 }
