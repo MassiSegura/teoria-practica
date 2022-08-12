@@ -22,7 +22,7 @@ body {
     color: black
 }
 
-main {
+main {   
     min-height: 100vh;
 }
 
@@ -48,6 +48,7 @@ a {
 
 
 .inicio0 {
+    
     color: white;
     font-size: 8px;
     text-align: center;
@@ -66,7 +67,6 @@ a {
 }
 
 .header {
-    position: fixed;
     width: 100%;
     background-color: black;
     min-height: 100px;
@@ -75,7 +75,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .nav-lista {
@@ -89,7 +89,7 @@ a {
 }
 
 .nav-enlace {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .padre {
@@ -118,4 +118,53 @@ a {
 
 .footer-item {
     margin-left: 1rem;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 2rem 0rem;
+}
+
+.indumentaria {
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.indumentaria-titulo {
+    font-size: 40px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.indumentaria-padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    
+ 
+}
+
+.indumentaria-hijos {
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+.indumentaria-img {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
 }
