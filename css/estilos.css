@@ -22,11 +22,14 @@ body {
     color: black
 }
 
-main {   
+main {
     min-height: 100vh;
 }
 
-
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
 
 
 a {
@@ -39,6 +42,7 @@ a {
     padding-bottom: 3rem;
     padding: 4rem;
     color: black;
+    display: flex;
 }
 
 
@@ -48,13 +52,17 @@ a {
 
 
 .inicio0 {
-    
+
     color: white;
-    font-size: 8px;
+    font-size: 12px;
     text-align: center;
     line-height: 2;
 }
 
+.texto1 {
+    color: black;
+    text-align: center;
+}
 .position-fixed
 
 /* top, left, right, bottom */
@@ -103,7 +111,7 @@ a {
 
 .hijo {
     width: 30%;
-    height: 200px;
+    height: 400px;
     color: black;
     padding: 1rem;
 }
@@ -128,11 +136,12 @@ a {
 
 .indumentaria {
     background-color: white;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     padding-left: 8rem;
     padding-right: 8rem;
 }
+
 .indumentaria-titulo {
     font-size: 40px;
     margin-bottom: 2rem;
@@ -144,27 +153,52 @@ a {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 1rem;
-    
- 
+    gap: 2rem;
+
+
 }
 
 .indumentaria-hijos {
     text-align: center;
     color: white;
     background-color: black;
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     padding: 1rem;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
-  }
-  
+}
+
 .indumentaria-img {
-    width: 130px;
-    height: 130px;
+    width: 400px;
+    height: 400px;
     position: absolute;
     bottom: 24px;
     right: 24px;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.container-fluid {
+overflow: hidden;
+}
+
+
+.contacto1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Vamos a crear una media query para aplicar cambios necesarios para las vistas pequeñas
+Tablet o Movil */
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 600px) {
+
 }
